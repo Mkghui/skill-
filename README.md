@@ -117,7 +117,7 @@ git remote add origin https://github.com/Mkghui/skill-.git
 git push -u origin main
 ```
 
-有 `gh` 时更省事：`gh repo create <owner>/<repo> --public --source . --push`。
+有 `gh` 时更省事：`gh repo create Mkghui/skill- --public --source . --push`。
 
 ## 许可
 
