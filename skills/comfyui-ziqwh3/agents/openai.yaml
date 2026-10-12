@@ -1,0 +1,6 @@
+interface:
+  display_name: "ComfyUI-ZIQWH3 剧本创作"
+  short_description: "ComfyUI 三模型漫剧剧本：提示词 + Word 交付"
+  default_prompt: "Use $comfyui-ziqwh3 to adapt this novel into a 漫剧 script with Z-Image / Qwen-Image / MiniMax H3 prompts, then export the Word deliverable."
+policy:
+  allow_implicit_invocation: true
