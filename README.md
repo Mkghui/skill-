@@ -1,5 +1,7 @@
 # ComfyUI-ZIQWH3 剧本创作
 
+仓库 <https://github.com/Mkghui/skill-> ｜ 最新包 [Releases](https://github.com/Mkghui/skill-/releases)
+
 技能名 `comfyui-ziqwh3`（人看的名字：ComfyUI-ZIQWH3 剧本创作）。把**小说正文**改编成**短剧漫剧剧本**：先把小说读成「集 → 场 → 镜 → 节拍 → 台词」，再为**每一镜**配齐三段可直接粘贴进 ComfyUI 的模型提示词，最后交付一份 Word。
 
 | 交付 | 内容 |
@@ -18,15 +20,15 @@
 方式一，拷进技能目录：
 
 ```bash
-git clone https://github.com/<owner>/<repo>.git
-cp -r <repo>/skills/comfyui-ziqwh3 ~/.codex/skills/          # Windows: %USERPROFILE%\.codex\skills\
+git clone https://github.com/Mkghui/skill-.git
+cp -r skill-/skills/comfyui-ziqwh3 ~/.codex/skills/          # Windows: %USERPROFILE%\.codex\skills\
 ```
 
 方式二，用 skill-installer 从仓库路径安装：
 
 ```bash
 python skill-installer/scripts/install-skill-from-github.py \
-  --repo <owner>/<repo> --path skills/comfyui-ziqwh3
+  --repo Mkghui/skill- --path skills/comfyui-ziqwh3
 ```
 
 ## 快速上手
@@ -111,7 +113,7 @@ python skill-creator/scripts/quick_validate.py skills/comfyui-ziqwh3            
 git init && git add -A
 git commit -m "feat: comfyui-ziqwh3 1.0.0 — 小说→漫剧剧本 + 三类模型提示词 + Word 交付"
 git branch -M main
-git remote add origin https://github.com/<owner>/<repo>.git
+git remote add origin https://github.com/Mkghui/skill-.git
 git push -u origin main
 ```
 
